@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+img#lua {
+    width: 370px;
+    float: left;
+    position: relative;
+    left: -60px;
+    top: -60px;
+    transition: 3s;
+}
+
+h1 {
+    position: relative;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.644);
+    font-size: 3.6em;
+    padding-top: 20px;
+    margin-top: 10px;
+    text-align: left;
+
+}
+p {
+    font-size: 1.3em;
+    margin-top: 3px;
+}
+
+#lunar_surface {
+    padding: 20px 0 10px 0;
+    width: 500px;
+    display: block;
+    margin: auto;
+
+}
+
+.bg_gray {
+    margin-top: 20px;
+    padding: 5px;
+    background-color:#242424;
+}
+h1, h2, p {
+    width: 55%;
+    margin: auto;
+}
+h2 {
+    margin-top: 10px;
+    font-size: 2em;
+}
+p {
+    margin-top: 10px;
+    line-height: 1.4em;
+}
+#colisao {
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+h3 {
+    width: 55%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+button a {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+button a:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+    background-color: #111111;
+    color: white;
+}
+footer li{
+    text-align: center;
+    list-style: none;
+    display: inline;
+    position: relative;
+}
+.fab {
+    font-size: 1.3em;
+    color: rgb(189, 189, 189);
+    margin: 10px;
+}
+
+.fab:hover {
+    color: #0A66C2;
+}
+
+hr {
+    width: 80px;
+    margin: auto;
+}
+
+#gh:hover {
+    color: white;
+}
+
+
+.stars{
+	width: 1px;
+	height: 1px;
+    float: left;
+	border-radius: 50%;
+	box-shadow: 61px 400px white, 145px 351px white, 242px 310px white, 184px 437px white, 354px 80px white, 302px 393px white, 256px 500px white, 150px 599px white, 324px 674px white, 276px 590px white, 50px 510px white, 339px 500px white, 325px 225px white, 304px 41px white;
+}
+
+/* RESPONSIVIDADE SIMPLES */
+@media screen and (max-width:1200px) {
+    .titulo {
+        padding-top: 400px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width:580px) {
+    #lunar_surface, #colisao {
+        width: 400px;
+    }
+    
+    
+}
